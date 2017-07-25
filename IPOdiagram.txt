@@ -1,0 +1,9 @@
+INPUT					PROCESSING											OUTPUT
+name					recieve name
+phone num			recieve phone num
+sale amount			recieve sale amount
+tax code				recieve tax code										Display error msg if invalid tax code, then re-prompt
+						obtain tax rate from tax code
+						calculate tax amount
+						calculate total sale amount with tax
+																				Display sales report
