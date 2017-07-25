@@ -1,0 +1,29 @@
+﻿ALGORITHM
+
+Read customer data from a prompt: name, phone num, sales amount, tax code.
+For this program, this will be read in from a prompt.  In future, this data will be read in from a file.
+Calculate sales tax and total sale amount.
+Produce a “Sales Report” that shows name, phone num, sales amount, sales tax, and total.
+
+	
+
+
+PSEUDO CODE
+
+VAR name
+VAR number
+VAR pretaxsaleamount
+VAR taxcode
+VAR taxrate
+VAR taxatotal
+VAR saletotal
+
+Prompt user for name, set name variable
+Prompt user for phone number, set number variable
+Prompt user for sale amount, set pretaxsaleamount variable
+Prompt user for tax code, set taxcode variable 
+Determine taxrate from taxcode (from a given rate table)
+Set taxtotal = taxrate * pretaxsaleamount
+Set saletotal = pretaxsaleamount + taxtotal
+Display “Sales Report”
+Display number, name, pretaxsaleamount, taxtotal, saletotal
